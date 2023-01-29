@@ -1,0 +1,146 @@
+
+
+
+
+.Section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding:5px;
+  background-color: #aaaaaa;
+  border-radius: 8px ;
+  box-shadow: 1px 1px 20px #6b6bd1;
+  gap: 5px;
+  
+}
+
+.Info{
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2px;
+ 
+}
+
+.title{
+
+ width: 100%;
+ margin-top: 30px;
+ text-align: center;
+}
+
+.list__Info{
+
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 16px;
+  gap: 1rem;
+  margin-bottom: 40px;
+}
+
+.button{
+
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  margin-bottom: 30px;
+
+}
+
+.button:hover {
+
+  background-color: black;
+  color: white;
+
+}
+
+.btn-form:hover {
+
+  background-color: black;
+  color: white;
+
+}
+
+h3,h2{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+
+}
+
+span{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+
+
+}
+
+h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+.form{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 0.3rem;
+}
+
+.input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 45px;
+  }
+  
+ .btn-form{
+  
+  background-color: #008CBA ;
+  padding: 5px;
+  border :none;
+  color: white;
+  width: 100px;
+  height: 45px;
+  transition: 0,1;
+  font-size: 15px;
+  margin-top: 8px;
+  border-radius: 6px;
+  
+  }
+
+  .Contenedor-Principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .Tamaño{
+
+    width: 180px;
+  }
+  .imagen{
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: #e3e3e3;
+  }
